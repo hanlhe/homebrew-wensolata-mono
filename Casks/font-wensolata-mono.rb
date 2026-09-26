@@ -7,8 +7,6 @@ cask "font-wensolata-mono" do
   name "慰文楷"
   desc "Monospaced typeface with Inconsolata Latin and WenKai Chinese glyphs"
   homepage "https://github.com/hanlhe/WenSolata-Mono"
-  license "OFL-1.1"
-
   livecheck do
     skip "Pinned to the reviewed font build commit"
   end
