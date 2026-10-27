@@ -1,6 +1,6 @@
 cask "font-wensolata-mono" do
-  version "4.622"
-  sha256 "02209ae758acf06287fa7275783902c6d4ea1813d6dcae1e97bfae8d606fd438"
+  version "4.630"
+  sha256 "2c75f5dd5e562292fbf715f4b6c1d2747519dfd443ab19d61a96c66a63676c23"
 
   url "https://github.com/hanlhe/WenSolata-Mono/releases/download/v#{version}/WenSolataMono-v#{version}.zip"
   name "WenSolata Mono"
