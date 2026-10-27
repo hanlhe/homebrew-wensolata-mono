@@ -17,7 +17,13 @@ To uninstall:
 brew uninstall --cask hanlhe/wensolata-mono/font-wensolata-mono
 ```
 
-The cask pins the current published build from the WenSolata Mono repository
-and installs fonts that include the SIL Open Font License 1.1 notices in their
-metadata. The license text is available in the [font repository](https://github.com/hanlhe/WenSolata-Mono/blob/main/OFL.txt).
-Update the cask when a new reviewed font build is published.
+The cask installs the fonts from the current
+[WenSolata Mono release](https://github.com/hanlhe/WenSolata-Mono/releases)
+package. They include the SIL Open Font License 1.1 notices in their metadata.
+The license text is available in the [font repository](https://github.com/hanlhe/WenSolata-Mono/blob/main/OFL.txt).
+A daily workflow updates the cask's version and checksum after a new release is
+published. To run it right away:
+
+```sh
+gh workflow run bump.yml -R hanlhe/homebrew-wensolata-mono
+```
